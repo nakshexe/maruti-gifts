@@ -1,0 +1,10 @@
+import { SiteHeader } from "@/components/site/site-header";
+import { Hero } from "@/components/site/hero";
+import { TrustStrip } from "@/components/site/trust-strip";
+import { Collection } from "@/components/site/collection";
+import { Story } from "@/components/site/story";
+import { Occasions } from "@/components/site/occasions";
+import { WhatsInside } from "@/components/site/whats-inside";
+import { Contact } from "@/components/site/contact";
+import { SiteFooter } from "@/components/site/site-footer";
+export default function Home(){return <><SiteHeader/><main id="top"><Hero/><TrustStrip/><Collection/><Story/><Occasions/><WhatsInside/><Contact/></main><SiteFooter/></>}

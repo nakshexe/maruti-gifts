@@ -1,0 +1,6 @@
+import { Container } from "@/components/site/container";
+
+export function Story(){return <section id="story" className="section story-section"><Container className="grid items-center gap-14 md:grid-cols-[1.02fr_.98fr] md:gap-20">
+  <div className="story-gallery"><div className="story-main"><img src="/images/turquoise-jars-open.jpg" alt="Open turquoise Maruti Gifts box with dry fruit jars"/></div><div className="story-small"><img src="/images/gold-box-angle.jpg" alt="Gold Maruti Gifts box"/></div><span className="story-stamp">BEAWAR<br/>RAJASTHAN</span></div>
+  <div><div className="eyebrow">Our story</div><h2>Local hands.<br/><em>Lasting gestures.</em></h2><div className="story-rule"/><p>Maruti Gifts began as a small dry-fruit counter in Beawar. Today, the work is still personal: nuts are tasted in small lots, sorted by hand, and packed only when an order arrives.</p><p>Our boxes come from craftspeople nearby — sheesham, brass, meenakari and jaali work. We know the hands behind the pieces, and that is exactly how we want a gift to feel.</p><div className="story-stats"><div><b>01</b><span>small-lot sourcing</span></div><div><b>02</b><span>local craftsmanship</span></div><div><b>03</b><span>packed to order</span></div></div></div>
+</Container></section>}
