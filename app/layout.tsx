@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Marcellus, Karla } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const marcellus = Marcellus({
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col bg-ivory text-ink">
         {children}
+        <Analytics />
       </body>
     </html>
   );
